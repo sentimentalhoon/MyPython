@@ -11,7 +11,7 @@ try:
     
     cur = conn.cursor()
 
-    for i in range(100000):
+    for i in range(1000):
         # 이름
         name = fake.name()
         # 나이 (random 사용)
