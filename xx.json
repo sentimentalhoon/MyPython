@@ -1,0 +1,71 @@
+{
+    "20230901": {
+      "diet": {
+        "breakfast": "780",
+        "lunch": "780",
+        "dinner": "780",
+        "nightmeal": "780"
+      },
+      "exercise": {
+        "running": "120",
+        "breath": "50"
+      },
+      "status": {
+        "weight": "120",
+        "height": "175"
+      }
+    },
+    "20230902": {
+      "diet": {
+        "breakfast": "780",
+        "lunch": "780",
+        "dinner": "780",
+        "nightmeal": "780"
+      },
+      "exercise": {
+        "running": "120",
+        "breath": "50"
+      },
+      "status": {
+        "weight": "120",
+        "height": "175"
+      }
+    },
+    "20230903": {
+      "diet": {
+        "breakfast": "780",
+        "lunch": "780",
+        "dinner": "780",
+        "nightmeal": "780"
+      },
+      "exercise": {
+        "running": "120",
+        "breath": "50"
+      },
+      "status": {
+        "weight": "120",
+        "height": "175"
+      }
+    },
+    "20230904": {
+      "diet": {
+        "breakfast": "780",
+        "lunch": "780",
+        "dinner": "780",
+        "nightmeal": "780"
+      },
+      "exercise": {
+        "running": "120",
+        "breath": "50"
+      },
+      "status": {
+        "weight": "120",
+        "height": "175"
+      }
+    },
+    "_id": {
+      "$oid": "64f43b8ec267546dabb85c4a"
+    },
+    "name": "강지원",
+    "trainer": 1001
+  }
