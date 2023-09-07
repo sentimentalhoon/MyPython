@@ -2,16 +2,21 @@ from faker import Faker
 import sys
 import numpy as np
 import pymysql
+
 try:
     conn = pymysql.connect(
-        user="root", passwd="Tkfkdgo12#$", host="localhost", port=3306, db="miniproject"
+        user="say",
+        passwd="qwer12#$",
+        host="svc.sel5.cloudtype.app",
+        port=31538,
+        db="sayproject",
     )
 
     fake = Faker("ko-KR")
-    
+
     cur = conn.cursor()
 
-    for i in range(1000):
+    for i in range(100):
         # 이름
         name = fake.name()
         # 나이 (random 사용)
@@ -38,16 +43,13 @@ try:
         email = fake.email()
         # 신용카드 정보
         credit_card = fake.credit_card_full()
-        insert_query = f"INSERT INTO miniproject.members(name, age, gender, height, weight, trainer, photopath, job, address, regist_day, phone_number, email, credit_card) VALUES('{name}', {age}, '{gender}', {height}, {weight},{trainer}, '{photo_path}', '{job}', '{address}', '{regist_day}', '{phone_number}', '{email}', '{credit_card}')"
-        
+        insert_query = f"INSERT INTO sayproject.members(name, age, gender, height, weight, trainer, photopath, job, address, regist_day, phone_number, email, credit_card) VALUES('{name}', {age}, '{gender}', {height}, {weight},{trainer}, '{photo_path}', '{job}', '{address}', '{regist_day}', '{phone_number}', '{email}', '{credit_card}')"
+
         cur.execute(insert_query)
-        
-       
-    conn.commit()   
+
+    conn.commit()
     conn.close()
-    
+
 except pymysql.Error as e:
     print(f"Error {e}")
     sys.exit(1)
-
-
