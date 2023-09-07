@@ -73,8 +73,10 @@ try:
                 ]
 
                 status = ["weight", "height"]
-                dailyInfo = {}
-                for j in range(1, 3):
+
+                all = []
+                for j in range(1, 5):
+                    
                     # 오늘 총 정보
                     myDailyAllInfo = {}
                     # 오늘 식단
@@ -91,24 +93,25 @@ try:
                     mydiet["dinner"] = dinner
                     mydiet["nightmeal"] = nightmeal
                     # 총정보에 식단 정보 입력
-                    myDailyAllInfo["diet"] = mydiet
-
-                    myexercise["calorie"] = random.randint(100, 200)
-                    myExerciseKind = []
-                    for m in range(3):
-                        ranExersie = random.randint(1, len(exercise) - 1)
-                        # 운동 정보 입력
-                        myExerciseKind.append(exercise[ranExersie][0])
-
-                    myexercise["kind"] = myExerciseKind
+                    myDailyAllInfo["diet"] = mydiet                    
+                    
+                    myexercise = [
+                        { "kind" : "달리기", "time_minute" : 10, "calorie" : 150 },
+                                  { "kind" : "숨쉬기", "time_minute" : 10, "calorie" : 150 },
+                                  { "kind" : "눕기", "time_minute" : 10, "calorie" : 150 },
+                                  { "kind" : "일어나기", "time_minute" : 10, "calorie" : 150 }
+                                  ]
+                    # myexercise["sum_calorie"] = random.randint(100, 200)
 
                     myDailyAllInfo["exercise"] = myexercise
                     myStatus["wegith"] = 85
                     myStatus["height"] = 180
                     myDailyAllInfo["status"] = myStatus
 
-                    mydict["202308" + format(j, "02")] = myDailyAllInfo
-
+                    myDailyAllInfo["dailyInfo"] = "202308" + format(j, "02")
+                    all.append(myDailyAllInfo)
+                    
+                mydict["dailyInfo"] = all
                 x = mycol.insert_one(mydict)
 
                 print(x.inserted_id)

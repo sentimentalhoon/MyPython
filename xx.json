@@ -1,67 +1,487 @@
 {
-    "20230801": {
+    "_id": 166133,
+    "name": "이미정",
+    "trainer": 1001,
+    "dailyInfo": [
+      {
         "diet": {
-            "sum_calorie": { "$numberInt": "2425" },
-            "breakfast": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ],
-            "lunch": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ],
-            "dinner": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ],
-            "nightmeal": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ]
+          "sum_calorie": 2402,
+          "breakfast": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "nightmeal": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        "exercise": { "calorie": { "$numberInt": "110" }, "kind": ["푸쉬업(보통으로)", "벽 스쿼트", "암풀다운"] },
-        "status": { "wegith": { "$numberInt": "85" }, "height": { "$numberInt": "180" } }
-    },
-    "20230802": {
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "wegith": 85,
+          "height": 180
+        },
+        "dailyInfo": "20230801"
+      },
+      {
         "diet": {
-            "sum_calorie": { "$numberInt": "2039" },
-            "breakfast": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ],
-            "lunch": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ],
-            "dinner": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ],
-            "nightmeal": [
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } },
-                { "foodname": "개고기", "gram": { "$numberInt": "300" }, "calorie": { "$numberInt": "500" } }
-            ]
+          "sum_calorie": 2012,
+          "breakfast": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "nightmeal": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        "exercise": { "calorie": { "$numberInt": "156" }, "kind": ["수리야 나마스까 요가", "사이클론", "배구시합"] },
-        "status": { "wegith": { "$numberInt": "85" }, "height": { "$numberInt": "180" } }
-    },
-    "_id": { "$numberInt": "107548" },
-    "name": "양숙자",
-    "trainer": { "$numberInt": "1001" }
-}
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "wegith": 85,
+          "height": 180
+        },
+        "dailyInfo": "20230802"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2205,
+          "breakfast": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "nightmeal": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "wegith": 85,
+          "height": 180
+        },
+        "dailyInfo": "20230803"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2225,
+          "breakfast": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "nightmeal": [
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "foodname": "개고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "wegith": 85,
+          "height": 180
+        },
+        "dailyInfo": "20230804"
+      }
+    ]
+  }
