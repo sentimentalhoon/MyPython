@@ -16,7 +16,7 @@ try:
 
     cur = conn.cursor()
 
-    for i in range(100):
+    for i in range(10):
         # 이름
         name = fake.name()
         # 나이 (random 사용)
@@ -43,7 +43,7 @@ try:
         email = fake.email()
         # 신용카드 정보
         credit_card = fake.credit_card_full()
-        insert_query = f"INSERT INTO sayproject.members(name, age, gender, height, weight, trainer, photopath, job, address, regist_day, phone_number, email, credit_card) VALUES('{name}', {age}, '{gender}', {height}, {weight},{trainer}, '{photo_path}', '{job}', '{address}', '{regist_day}', '{phone_number}', '{email}', '{credit_card}')"
+        insert_query = f"INSERT INTO sayproject.members(name, age, gender, height, weight, trainer, photopath, job, address, regist_day, phone_number, kakao_id, credit_card) VALUES('{name}', {age}, '{gender}', {height}, {weight},{trainer}, '{photo_path}', '{job}', '{address}', '{regist_day}', '{phone_number}', '{email}', '{credit_card}')"
 
         cur.execute(insert_query)
 
