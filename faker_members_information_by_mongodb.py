@@ -28,7 +28,7 @@ try:
 
                 myclient = pymongo.MongoClient(connectionString)
                 mydb = myclient["sayproject"]
-                mycol = mydb["202308"]
+                mycol = mydb["202309"]
 
                 fake = Faker("ko-KR")
 
@@ -66,28 +66,108 @@ try:
 
                         mydict = {"_id": ranNum, "name": name, "trainer": trainerNo}
                         breakfast = [
-                            {"foodname": "개고기", "gram": 300, "calorie": 500},
-                            {"foodname": "소고기", "gram": 300, "calorie": 500},
-                            {"foodname": "말고기", "gram": 300, "calorie": 500},
-                            {"foodname": "돼지고기", "gram": 300, "calorie": 500},
+                            {
+                                "code": "D000006",
+                                "foodname": "꿩불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D000016",
+                                "foodname": "불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010234",
+                                "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010293",
+                                "foodname": "돼지고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
                         ]
                         lunch = [
-                            {"foodname": "떡볶이", "gram": 300, "calorie": 500},
-                            {"foodname": "라볶이", "gram": 300, "calorie": 500},
-                            {"foodname": "어묵", "gram": 300, "calorie": 500},
-                            {"foodname": "오징어튀김", "gram": 300, "calorie": 500},
+                            {
+                                "code": "D010307",
+                                "foodname": "꿩불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010313",
+                                "foodname": "불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010361",
+                                "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010390",
+                                "foodname": "돼지고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
                         ]
                         dinner = [
-                            {"foodname": "참치", "gram": 300, "calorie": 500},
-                            {"foodname": "도미", "gram": 300, "calorie": 500},
-                            {"foodname": "피라미", "gram": 300, "calorie": 500},
-                            {"foodname": "기름치", "gram": 300, "calorie": 500},
+                            {
+                                "code": "D010430",
+                                "foodname": "꿩불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010443",
+                                "foodname": "불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010433",
+                                "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010486",
+                                "foodname": "돼지고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
                         ]
                         otherfood = [
-                            {"foodname": "새우깡", "gram": 300, "calorie": 500},
-                            {"foodname": "크라운산도", "gram": 300, "calorie": 500},
-                            {"foodname": "젤리", "gram": 300, "calorie": 500},
-                            {"foodname": "빵", "gram": 300, "calorie": 500},
+                            {
+                                "code": "D010529",
+                                "foodname": "꿩불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010539",
+                                "foodname": "불고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010562",
+                                "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
+                            {
+                                "code": "D010582",
+                                "foodname": "돼지고기",
+                                "gram": 300,
+                                "calorie": 500,
+                            },
                         ]
 
                         status = ["weight", "height"]
@@ -113,10 +193,30 @@ try:
                             myDailyAllInfo["diet"] = mydiet
 
                             myexercise = [
-                                {"kind": "달리기", "time_minute": 10, "calorie": 150},
-                                {"kind": "숨쉬기", "time_minute": 10, "calorie": 150},
-                                {"kind": "눕기", "time_minute": 10, "calorie": 150},
-                                {"kind": "일어나기", "time_minute": 10, "calorie": 150},
+                                {
+                                    "exerciseid": 1237,
+                                    "kind": "사이드 밴드",
+                                    "time_minute": 10,
+                                    "calorie": 150,
+                                },
+                                {
+                                    "exerciseid": 1240,
+                                    "kind": "(윈드)서핑",
+                                    "time_minute": 10,
+                                    "calorie": 150,
+                                },
+                                {
+                                    "exerciseid": 1264,
+                                    "kind": "레그 컬",
+                                    "time_minute": 10,
+                                    "calorie": 150,
+                                },
+                                {
+                                    "exerciseid": 1265,
+                                    "kind": "루마니안 데드리프트",
+                                    "time_minute": 10,
+                                    "calorie": 150,
+                                },
                             ]
                             # myexercise["sum_calorie"] = random.randint(100, 200)
 

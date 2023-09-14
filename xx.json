@@ -1,1154 +1,4223 @@
 {
-    "_id": 157136,
-    "name": "김지원",
+    "_id": 1,
+    "name": "윤춘자",
     "trainer": 1001,
     "dailyInfo": [
-        {
-            "diet": {
-                "sum_calorie": 2100,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+      {
+        "diet": {
+          "sum_calorie": 2171,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230801"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2227,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230802"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2212,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230801"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2301,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230803"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2155,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230804"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2077,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230802"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2125,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230805"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2429,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230806"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2128,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230803"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2007,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230807"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2289,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230808"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2267,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230804"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2053,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230809"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2300,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230810"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2064,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230805"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2395,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230811"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2317,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230812"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2069,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230806"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2397,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230813"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2016,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230814"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2304,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230807"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2461,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230815"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2184,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230816"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2382,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230808"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2257,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230817"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2216,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230818"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2466,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230809"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2248,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230819"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2205,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230820"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2493,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230810"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2199,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230821"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2190,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230822"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2031,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230811"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2444,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230823"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2176,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230824"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2213,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230812"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2216,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230825"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2429,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230826"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2306,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230813"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2133,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230827"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2111,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230828"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2471,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230814"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2396,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230829"
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
         },
-        {
-            "diet": {
-                "sum_calorie": 2107,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
-            },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230830"
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
         },
-        {
-            "diet": {
-                "sum_calorie": 2065,
-                "breakfast": [
-                    { "foodname": "개고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "소고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "말고기", "gram": 300, "calorie": 500 },
-                    { "foodname": "돼지고기", "gram": 300, "calorie": 500 }
-                ],
-                "lunch": [
-                    { "foodname": "떡볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "라볶이", "gram": 300, "calorie": 500 },
-                    { "foodname": "어묵", "gram": 300, "calorie": 500 },
-                    { "foodname": "오징어튀김", "gram": 300, "calorie": 500 }
-                ],
-                "dinner": [
-                    { "foodname": "참치", "gram": 300, "calorie": 500 },
-                    { "foodname": "도미", "gram": 300, "calorie": 500 },
-                    { "foodname": "피라미", "gram": 300, "calorie": 500 },
-                    { "foodname": "기름치", "gram": 300, "calorie": 500 }
-                ],
-                "nightmeal": [
-                    { "foodname": "새우깡", "gram": 300, "calorie": 500 },
-                    { "foodname": "크라운산도", "gram": 300, "calorie": 500 },
-                    { "foodname": "젤리", "gram": 300, "calorie": 500 },
-                    { "foodname": "빵", "gram": 300, "calorie": 500 }
-                ]
+        "day": "20230815"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2277,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
             },
-            "exercise": [
-                { "kind": "달리기", "time_minute": 10, "calorie": 150 },
-                { "kind": "숨쉬기", "time_minute": 10, "calorie": 150 },
-                { "kind": "눕기", "time_minute": 10, "calorie": 150 },
-                { "kind": "일어나기", "time_minute": 10, "calorie": 150 }
-            ],
-            "status": { "weight": 85, "height": 180 },
-            "day": "20230831"
-        }
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230816"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2367,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230817"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2353,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230818"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2029,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230819"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2214,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230820"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2331,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230821"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2216,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230822"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2286,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230823"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2019,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230824"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2306,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230825"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2410,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230826"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2215,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230827"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2450,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230828"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2328,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230829"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2178,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230830"
+      },
+      {
+        "diet": {
+          "sum_calorie": 2106,
+          "breakfast": [
+            {
+              "code": "D000006",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D000016",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010234",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010293",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "lunch": [
+            {
+              "code": "D010307",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010313",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010361",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010390",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "dinner": [
+            {
+              "code": "D010430",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010443",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010433",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010486",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ],
+          "otherfood": [
+            {
+              "code": "D010529",
+              "foodname": "꿩불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010539",
+              "foodname": "불고기",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010562",
+              "foodname": "갈릭버터쉬림프(치즈크러스트)L",
+              "gram": 300,
+              "calorie": 500
+            },
+            {
+              "code": "D010582",
+              "foodname": "돼지고기",
+              "gram": 300,
+              "calorie": 500
+            }
+          ]
+        },
+        "exercise": [
+          {
+            "kind": "달리기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "숨쉬기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "눕기",
+            "time_minute": 10,
+            "calorie": 150
+          },
+          {
+            "kind": "일어나기",
+            "time_minute": 10,
+            "calorie": 150
+          }
+        ],
+        "status": {
+          "weight": 81,
+          "height": 169
+        },
+        "day": "20230831"
+      }
     ]
-}
+  }
