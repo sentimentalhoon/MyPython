@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <div id="koreastockstream">
+      <table id="table" class="table table-bordered">
+        <thead>
+          <tr class="text-center">
+            <th scope="col">유가증권단축종목코드</th>
+            <th scope="col">주식체결시간</th>
+            <th scope="col">주식현재가</th>
+            <th scope="col">전일대비부호</th>
+            <th scope="col">전일대비</th>
+            <th scope="col">전일대비율</th>
+            <th scope="col">가중평균주식가격</th>
+            <th scope="col">주식시가</th>
+            <th scope="col">주식최고가</th>
+            <th scope="col">주식최저가</th>
+            <th scope="col">매도호가1</th>
+            <th scope="col">매수호가1</th>
+            <th scope="col">체결거래량</th>
+            <th scope="col">누적거래량</th>
+            <th scope="col">누적거래대금</th>
+            <th scope="col">매도체결건수</th>
+            <th scope="col">매수체결건수</th>
+            <th scope="col">순매수 체결건수</th>
+            <th scope="col">체결강도</th>
+            <th scope="col">총 매도수량</th>
+            <th scope="col">총 매수수량</th>
+            <th scope="col">체결구분</th>
+            <th scope="col">매수비율</th>
+            <th scope="col">전일 거래량대비등락율</th>
+            <th scope="col">시가시간</th>
+            <th scope="col">시가대비 구분</th>
+            <th scope="col">시가대비</th>
+            <th scope="col">최고가 시간</th>
+            <th scope="col">고가대비구분</th>
+            <th scope="col">고가대비</th>
+            <th scope="col">최저가시간</th>
+            <th scope="col">저가대비구분</th>
+            <th scope="col">저가대비</th>
+            <th scope="col">영업일자</th>
+            <th scope="col">신 장운영 구분코드</th>
+            <th scope="col">거래정지 여부</th>
+            <th scope="col">매도호가잔량</th>
+            <th scope="col">매수호가잔량</th>
+            <th scope="col">총 매도호가잔량</th>
+            <th scope="col">총 매수호가잔량</th>
+            <th scope="col">거래량 회전율</th>
+            <th scope="col">전일 동시간 누적거래량</th>
+            <th scope="col">전일 동시간 누적거래량 비율</th>
+            <th scope="col">시간구분코드</th>
+            <th scope="col">임의종료구분코드</th>
+            <th scope="col">정적VI발동기준가</th>            
+            <th scope="col">회사이름</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function replaceAll(strTemp, strValue1, strValue2) {
+        while (1) {
+          if (strTemp.indexOf(strValue1) != -1)
+            strTemp = strTemp.replace(strValue1, strValue2);
+          else break;
+        }
+        return strTemp;
+      }
+
+      const korea_stock_streamoutputDiv = document.getElementById("tbody");
+      const koreastockstream = new EventSource(
+        "http://59.3.28.12:9100/koreastockstream"
+      );
+      let drawTable = false;
+
+      let createTd = (idName, className, textNode) => {
+        let createElementTD = document.createElement("td");
+        createElementTD.setAttribute("id", idName);
+        createElementTD.setAttribute("class", className);
+        createElementTD.appendChild(document.createTextNode(textNode));
+        return createElementTD;
+      };
+      let updateTd = (idName, className, textNode) => {
+        let createElementTD = document.createElement("td");
+        createElementTD.setAttribute("id", idName);
+        createElementTD.setAttribute("class", className);
+        createElementTD.appendChild(document.createTextNode(textNode));
+        return createElementTD;
+      };
+
+      koreastockstream.onmessage = function (event) {
+        const receivedData = event.data;
+        const eventData = JSON.parse(receivedData);
+
+        let koreaStockTbody = document.getElementById("tbody");
+        if (drawTable === false) {
+          drawTable = true;
+          for (idx in eventData) {
+            let idxData = eventData[idx];
+            let tr_CompanyNameKr = document.createElement("tr");
+            tr_CompanyNameKr.setAttribute("id", idxData["COMPANY_NAME_KR"]);
+
+            for (companyStockData in idxData) {
+              let create = createTd(
+                companyStockData,
+                "text-center",
+                idxData[companyStockData]
+              );
+              tr_CompanyNameKr.appendChild(create);
+            }
+            koreaStockTbody.appendChild(tr_CompanyNameKr);
+          }
+        }
+
+        for (idx in eventData) {
+          let idxData = eventData[idx];
+          let findCompanyNameKrTD = document
+            .getElementById(idxData["COMPANY_NAME_KR"])
+            .getElementsByTagName("td");
+          for (companyStockData in idxData) {
+            const STCK_CNTG_HOUR = findCompanyNameKrTD.namedItem(companyStockData);
+            //console.log(STCK_CNTG_HOUR.getAttribute("value") != idxData[companyStockData])
+            if (STCK_CNTG_HOUR.getAttribute("value") != idxData[companyStockData]) {
+              STCK_CNTG_HOUR.innerText = idxData[companyStockData];
+              STCK_CNTG_HOUR.setAttribute("value", idxData[companyStockData]);
+            }
+          }
+        }
+
+        if (receivedData === "END_OF_STREAM") {
+          koreastockstream.close(); // Close the connection when 'END_OF_STREAM' message is received
+        }
+      };
+      koreastockstream.onerror = function (error) {
+        console.error("koreastockstream failed:", error);
+        koreastockstream.close();
+      };
+      function encode_utf8(s) {
+        return unescape(s);
+      }
+
+      let aa = "dfsadf";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="main" class="container-xl">
+      <table id="table" class="table table-bordered" rules="rows">
+        <thead>
+          <tr class="text-center">
+            <th scope="col">#</th>
+            <th scope="col">현재가</th>
+            <th scope="col">전일대비</th>
+            <th scope="col">변화량(원)</th>
+            <th scope="col">변화량(%)</th>
+            <th scope="col">거래종류</th>
+            <th scope="col">거래량</th>
+            <th scope="col">52주최저가</th>
+            <th scope="col">52주최고가</th>
+            <th scope="col">시작가</th>
+            <th scope="col">거래시간</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div>
+      <div id="korea-stock"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const client_id = Date.now();
+      const ws = new WebSocket(`ws://59.3.28.12:9100/ws/upbit`);
+      let coin_count = 0;
+      let stock_count = 0;
+      let drawTable = false;
+      ws.onmessage = function (event) {
+        const eventData = JSON.parse(event.data);
+        if (eventData["KRW-BTC"] !== undefined) {
+          // # {'type': 'ticker', 'code': 'KRW-POWR', 'opening_price': 414.0, 'high_price': 426.0, 'low_price': 395.0, 'trade_price': 402.0,
+          // # 'prev_closing_price': 413.0, 'acc_trade_price': 16702452637.200949, 'change': 'FALL', 'change_price': 11.0,
+          // # 'signed_change_price': -11.0, 'change_rate': 0.0266343826, 'signed_change_rate': -0.0266343826, 'ask_bid': 'BID',
+          // # 'trade_volume': 2498.06526667, 'acc_trade_volume': 40610551.60480012, 'trade_date': '20231120', 'trade_time': '022636',
+          // # 'trade_timestamp': 1700447196373, 'acc_ask_volume': 25734232.09623769, 'acc_bid_volume': 14876319.50856243,
+          // # 'highest_52_week_price': 592.0, 'highest_52_week_date': '2023-10-26', 'lowest_52_week_price': 147.0,
+          // # 'lowest_52_week_date': '2022-12-29', 'market_state': 'ACTIVE', 'is_trading_suspended': False, 'delisting_date': None,
+          // # 'market_warning': 'NONE', 'timestamp': 1700447196402, 'acc_trade_price_24h': 117959244017.27232,
+          // # 'acc_trade_volume_24h': 290252916.85558534, 'stream_type': 'REALTIME'}
+          coin_count++;
+          let table = document.getElementById("tbody");
+          if (drawTable === false) {
+            drawTable = true;
+            for (idx in eventData) {
+              let tr = document.createElement("tr");
+              tr.setAttribute("id", eventData[idx]["code"]);
+              let td1 = document.createElement("td");
+              td1.appendChild(document.createTextNode(eventData[idx]["codeKr"]));
+              td1.setAttribute("id", eventData[idx]["code"]);
+              let td2 = document.createElement("td");
+              td2.setAttribute("class", "text-end");
+              td2.appendChild(document.createTextNode(""));
+              let td3 = document.createElement("td");
+              td3.setAttribute("class", "text-center");
+              td3.appendChild(document.createTextNode(""));
+
+              let signed_change_price_won = document.createElement("td");
+              signed_change_price_won.setAttribute(
+                "id",
+                "signed_change_price_won"
+              );
+              signed_change_price_won.setAttribute("class", "text-end");
+              signed_change_price_won.appendChild(document.createTextNode(""));
+
+              let signed_change_price_percent = document.createElement("td");
+              signed_change_price_percent.setAttribute(
+                "id",
+                "signed_change_price_percent"
+              );
+              signed_change_price_percent.setAttribute("class", "text-end");
+              signed_change_price_percent.appendChild(
+                document.createTextNode("")
+              );
+
+              let td5 = document.createElement("td");
+              td5.appendChild(document.createTextNode(""));
+              let td6 = document.createElement("td");
+              td6.setAttribute("class", "text-end");
+              td6.appendChild(document.createTextNode(""));
+              let td7 = document.createElement("td");
+              td7.setAttribute("class", "text-end");
+              td7.appendChild(document.createTextNode(""));
+              let td8 = document.createElement("td");
+              td8.setAttribute("class", "text-end");
+              td8.appendChild(document.createTextNode(""));
+              let td9 = document.createElement("td");
+              td9.setAttribute("class", "text-end");
+              td9.appendChild(document.createTextNode(""));
+              let td10 = document.createElement("td");
+              td10.appendChild(document.createTextNode(""));
+              
+              tr.appendChild(td1);
+              tr.appendChild(td2);
+              tr.appendChild(td3);
+              tr.appendChild(signed_change_price_won);
+              tr.appendChild(signed_change_price_percent);
+              tr.appendChild(td5);
+              tr.appendChild(td6);
+              tr.appendChild(td7);
+              tr.appendChild(td8);
+              tr.appendChild(td9);
+              tr.appendChild(td10);
+              table.appendChild(tr);
+            }
+          }
+          const option = {
+            maximumFractionDigits: 8,
+          };
+          for (idx in eventData) {
+            let idxData = eventData[idx];
+            let findCodeTD = document
+              .getElementById(idxData["code"])
+              .getElementsByTagName("td");
+            if (findCodeTD[1].getAttribute("value") != idxData["trade_price"]) {
+              findCodeTD[1].innerText = idxData["trade_price"].toLocaleString(
+                "ko-KR",
+                option
+              );
+              findCodeTD[1].setAttribute("value", idxData["trade_price"]);
+            }
+            if (findCodeTD[2].getAttribute("value") != idxData["change"]) {
+              findCodeTD[2].innerText = "";
+
+              findCodeTD[2].setAttribute("value", idxData["change"]);
+              let iElement = document.createElement("i");
+              iElement.className =
+                idxData["change"] == "EVEN"
+                  ? "bi bi-chevron-bar-contract"
+                  : idxData["change"] == "RISE"
+                  ? "bi bi-chevron-double-up text-danger"
+                  : "bi bi-chevron-double-down text-primary";
+              findCodeTD[2].appendChild(iElement);
+            }
+            if (
+              findCodeTD[3].getAttribute("value") !=
+              idxData["signed_change_price"]
+            ) {
+              findCodeTD[3].innerText =
+                idxData["signed_change_price"].toLocaleString("ko-KR");
+              findCodeTD[3].setAttribute(
+                "value",
+                idxData["signed_change_price"]
+              );
+            }
+
+            const signed_change_price_percent = findCodeTD.namedItem(
+              "signed_change_price_percent"
+            );
+            const signed_change_price_percent_value = (
+              (Number(idxData["signed_change_price"]) /
+                Number(idxData["opening_price"])) *
+              100
+            ).toLocaleString("ko-KR", {
+              maximumFractionDigits: 3,
+            });
+            if (
+              signed_change_price_percent.getAttribute("value") !=
+              signed_change_price_percent_value
+            ) {
+              signed_change_price_percent.innerText =
+                signed_change_price_percent_value + " %";
+              signed_change_price_percent.setAttribute(
+                "value",
+                signed_change_price_percent_value
+              );
+            }
+
+            if (findCodeTD[5].getAttribute("value") != idxData["ask_bid"]) {
+              findCodeTD[5].innerText = idxData["ask_bid"];
+              findCodeTD[5].setAttribute("value", idxData["ask_bid"]);
+            }
+            if (
+              findCodeTD[6].getAttribute("value") != idxData["trade_volume"]
+            ) {
+              findCodeTD[6].innerText = idxData["trade_volume"].toLocaleString(
+                "ko-KR",
+                option
+              );
+              findCodeTD[6].setAttribute("value", idxData["trade_volume"]);
+            }
+            if (
+              findCodeTD[7].getAttribute("value") !=
+              idxData["lowest_52_week_price"]
+            ) {
+              findCodeTD[7].innerText =
+                idxData["lowest_52_week_price"].toLocaleString("ko-KR");
+              findCodeTD[7].setAttribute(
+                "value",
+                idxData["lowest_52_week_price"]
+              );
+            }
+            if (
+              findCodeTD[8].getAttribute("value") !=
+              idxData["highest_52_week_price"]
+            ) {
+              findCodeTD[8].innerText =
+                idxData["highest_52_week_price"].toLocaleString("ko-KR");
+              findCodeTD[8].setAttribute(
+                "value",
+                idxData["highest_52_week_price"]
+              );
+            }
+            if (
+              findCodeTD[9].getAttribute("value") != idxData["opening_price"]
+            ) {
+              findCodeTD[9].innerText =
+                idxData["opening_price"].toLocaleString("ko-KR");
+              findCodeTD[9].setAttribute("value", idxData["opening_price"]);
+            }
+            if (
+              findCodeTD[10].getAttribute("value") != idxData["trade_timestamp"]
+            ) {
+              findCodeTD[10].innerText = Unix_timestamp(
+                idxData["trade_timestamp"]
+              );
+              findCodeTD[10].setAttribute("value", idxData["trade_timestamp"]);
+            }
+          }
+        } else {
+          stock_count++;
+          let messages = document.getElementById("korea-stock");
+          let content = undefined;
+          let message = undefined;
+          let createUL = document.createElement("ul");
+          for (idx in eventData) {
+            let createLI = document.createElement("li");
+            content = document.createTextNode(JSON.stringify(eventData[idx]));
+            createLI.appendChild(content);
+            createUL.appendChild(createLI);
+          }
+          messages.innerHTML = createUL.innerHTML;
+        }
+      };
+      function sendMessage(event) {
+        let input = document.getElementById("messageText");
+        ws.send(input.value);
+        input.value = "";
+        event.preventDefault();
+      }
+      function encode_utf8(s) {
+        return unescape(s);
+      }
+      function Unix_timestamp(t) {
+        let date = new Date(t);
+        let month = "0" + (date.getMonth() + 1);
+        let day = "0" + date.getDate();
+        let hour = "0" + date.getHours();
+        let minute = "0" + date.getMinutes();
+        let second = "0" + date.getSeconds();
+        return (
+          month.substr(-2) +
+          "-" +
+          day.substr(-2) +
+          " " +
+          hour.substr(-2) +
+          ":" +
+          minute.substr(-2) +
+          ":" +
+          second.substr(-2)
+        );
+      }
+    </script>
+  </body>
+</html>
